@@ -1,4 +1,4 @@
-```
+
 # SSH Bandwidth Shaping via PAM
 
 This repository documents how to limit SSH users’ bandwidth on login using Linux traffic control (`tc`) and PAM session hooks.
@@ -25,4 +25,4 @@ In order for SSH to run the script on session open/close, SSH must be using PAM.
 1. Edit **`/etc/ssh/sshd_config`** and ensure:
    ```text
    UsePAM yes
-```
+
