@@ -25,4 +25,4 @@ In order for SSH to run the script on session open/close, SSH must be using PAM.
 1. Edit **`/etc/ssh/sshd_config`** and ensure:
    ```text
    UsePAM yes
-
+2.you have to include it under /etc/pam.d/ssh  and use @include #path_of_the_script
